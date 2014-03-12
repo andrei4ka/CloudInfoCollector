@@ -1,8 +1,13 @@
 #!/bin/bash
 
-df -h
+set -x
+
+df -ha
 df -i
 
+lsblk
+
+blkid
 
 lsof
 
